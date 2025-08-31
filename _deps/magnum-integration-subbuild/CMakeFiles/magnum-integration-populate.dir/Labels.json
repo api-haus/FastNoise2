@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/CMakeFiles/magnum-integration-populate"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/CMakeFiles/magnum-integration-populate.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/CMakeFiles/magnum-integration-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-build.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-download.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-install.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-test.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/magnum-integration-subbuild/magnum-integration-populate-prefix/src/magnum-integration-populate-stamp/magnum-integration-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"magnum-integration-populate"
+		],
+		"name" : "magnum-integration-populate"
+	}
+}

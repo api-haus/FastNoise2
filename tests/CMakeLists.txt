@@ -40,3 +40,11 @@ set_target_properties(FastNoiseCpp11Test PROPERTIES CXX_STANDARD 11)
 target_link_libraries(FastNoiseCpp11Test
     FastNoise
 )
+
+add_executable(FastNoiseSimdConsistency
+    "FastNoiseSimdConsistency.cpp"
+)
+
+target_link_libraries(FastNoiseSimdConsistency
+    FastNoise
+)

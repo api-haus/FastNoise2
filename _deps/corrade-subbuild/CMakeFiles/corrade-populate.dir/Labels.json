@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/CMakeFiles/corrade-populate"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/CMakeFiles/corrade-populate.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/CMakeFiles/corrade-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-build.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-download.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-install.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-test.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/corrade-subbuild/corrade-populate-prefix/src/corrade-populate-stamp/corrade-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"corrade-populate"
+		],
+		"name" : "corrade-populate"
+	}
+}

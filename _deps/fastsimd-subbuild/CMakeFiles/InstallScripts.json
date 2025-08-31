@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/api/FastNoise2/_deps/fastsimd-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

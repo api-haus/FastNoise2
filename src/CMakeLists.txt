@@ -58,7 +58,7 @@ if(NOT FASTNOISE2_STRICT_FP)
     set(FASTSIMD_RELAXED RELAXED)
 endif()
 
-fastsimd_create_dispatch_library(FastSIMD_FastNoise ${FASTSIMD_RELAXED} SOURCES "FastNoise/FastSIMD_Build.inl")
+fastsimd_create_dispatch_library(FastSIMD_FastNoise ${FASTSIMD_RELAXED} SOURCES "FastNoise/FastSIMD_Build.inl" FEATURE_SETS SCALAR NEON AARCH64)
 
 target_include_directories(FastSIMD_FastNoise PRIVATE "../include/")
 

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+ceb5d38d923e541167b91d892ad895c3 _deps/glfw-build/src/CMakeFiles/update_mappings
+752ea049599c1fd3117d885020ac5d15 _deps/magnum-build/src/Magnum/Shaders/resource_MagnumShaders_RESOURCES_GL.cpp
+63636fd45c81d7016e123a118effc600 tools/NodeEditor/resource_NodeEditor_RESOURCES.cpp

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/CMakeFiles/imnodes-populate"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/CMakeFiles/imnodes-populate.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/CMakeFiles/imnodes-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-build.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-download.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-install.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-test.rule"
+		},
+		{
+			"file" : "/Users/api/FastNoise2/_deps/imnodes-subbuild/imnodes-populate-prefix/src/imnodes-populate-stamp/imnodes-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imnodes-populate"
+		],
+		"name" : "imnodes-populate"
+	}
+}

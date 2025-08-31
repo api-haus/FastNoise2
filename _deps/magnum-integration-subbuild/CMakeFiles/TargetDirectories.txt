@@ -1,0 +1,3 @@
+/Users/api/FastNoise2/_deps/magnum-integration-subbuild/CMakeFiles/magnum-integration-populate.dir
+/Users/api/FastNoise2/_deps/magnum-integration-subbuild/CMakeFiles/edit_cache.dir
+/Users/api/FastNoise2/_deps/magnum-integration-subbuild/CMakeFiles/rebuild_cache.dir
