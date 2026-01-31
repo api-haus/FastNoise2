@@ -1111,6 +1111,22 @@ void FastNoiseNodeEditor::DoNodes()
                 Debug{} << node.second.serialised.c_str();
             }
 
+            if( ImGui::MenuItem( "Apply to Editor" ) )
+            {
+                // Send this node's ENT to external editor via IPC (type 2 = explicit apply)
+                unsigned char* sharedMemory = static_cast<unsigned char*>( mNodeEditorApp.GetIpcSharedMemory() );
+                const std::string& ent = node.second.serialised;
+
+                if( sharedMemory && ent.length() + 3 < kSharedMemorySize )
+                {
+                    std::memcpy( sharedMemory + 2, ent.data(), ent.length() + 1 );
+                    sharedMemory[1] = 2; // Type 2 = explicit apply to editor
+                    std::atomic_thread_fence( std::memory_order_acq_rel );
+                    sharedMemory[0]++;
+                    Debug{} << "Applied ENT to editor:" << ent.c_str();
+                }
+            }
+
             ImGui::Separator();
             ImGui::MenuItem( "Convert To:", nullptr, nullptr, false );
 

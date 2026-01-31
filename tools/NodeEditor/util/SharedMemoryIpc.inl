@@ -115,6 +115,26 @@ void FastNoiseNodeEditor::DoIpcPolling()
                 SetPreviewGenerator( newEncodedNodeTree );
             }
             break;
+            case 1: // Clear graph and import ENT
+            {
+                std::string newEncodedNodeTree = static_cast<const char*>( sharedMemory ) + 2;
+
+                // Clear existing nodes
+                mNodes.clear();
+                mSelectedNode = nullptr;
+
+                // Import the new ENT at a reasonable starting position
+                ImVec2 startPos = { 100.0f, 100.0f };
+                if( AddNodeFromEncodedString( newEncodedNodeTree.c_str(), startPos ) )
+                {
+                    Debug {} << "IPC: Imported ENT successfully";
+                }
+                else
+                {
+                    Debug {} << "IPC: Failed to import ENT";
+                }
+            }
+            break;
             }
         }
     }
